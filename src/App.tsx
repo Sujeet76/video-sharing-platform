@@ -1,14 +1,11 @@
-import { Button } from "./components/ui/button";
+import Navbar from "./components/navbar/Navbar.component";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Starter template from video sharing platform with setup(tailwind css, shadcn)
-      </h1>
-      <Button>Share videos</Button>
-    </div>
+    <main className="flex flex-col items-center min-h-screen bg-black text-white">
+      <Navbar />
+    </main>
   );
-}
+};
 
 export default App;
